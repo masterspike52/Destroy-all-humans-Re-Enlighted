@@ -1,0 +1,141 @@
+[main]
+file_path = "../private/default.xex"
+out_directory_path = "../ppc"
+switch_table_file_path = "./switch_table.toml"
+
+skip_lr = false
+skip_msr = false
+ctr_as_local = false
+xer_as_local = false
+reserved_as_local = false
+cr_as_local = false
+non_argument_as_local = false
+non_volatile_as_local = false
+
+restgprlr_14_address = 0x82CB1100
+savegprlr_14_address = 0x82CB10B0
+restfpr_14_address = 0x82CB6AFC
+savefpr_14_address = 0x82CB6AB0
+restvmx_14_address = 0x82FF17D8
+savevmx_14_address = 0x82FF1540
+restvmx_64_address = 0x82FF186C
+savevmx_64_address = 0x82FF15D4
+
+
+functions = [
+    { address = 0x82DD4CC0, size = 0x110 },
+    { address = 0x832226F8, size = 0xA4 },
+    { address = 0x827FF7C8, size = 0x58 },
+    { address = 0x83335820, size = 0x80 },
+    { address = 0x83335768, size = 0xB8 },
+    { address = 0x82FCECA8, size = 0x1BC },
+    { address = 0x82367680, size = 0xF4 },
+    { address = 0x83336098, size = 0x108 },
+    { address = 0x82DC5D80, size = 0x114 },
+    { address = 0x83335EC0, size = 0x16C },
+    { address = 0x833356A8, size = 0xBC },
+    { address = 0x82F16708, size = 0x114 },
+    { address = 0x82D52118, size = 0x12C },
+    { address = 0x833358A0, size = 0x7C },
+    { address = 0x82D522A8, size = 0xB4 },
+    { address = 0x8233C7B8, size = 0x214 },
+    { address = 0x82DE0D48, size = 0x19C },
+    { address = 0x8279E5C8, size = 0x6C },
+    { address = 0x82E1FAD8, size = 0x108 },
+    { address = 0x825F9280, size = 0xCC },
+    { address = 0x82DCD5E8, size = 0x14C },
+    { address = 0x82294768, size = 0x220 },
+    { address = 0x8252EB68, size = 0xDC },
+    { address = 0x82DAE4F8, size = 0x1CC },
+    { address = 0x824005A8, size = 0xA4 },
+    { address = 0x82DCD738, size = 0x19C },
+    { address = 0x82DB2008, size = 0xC8 },
+    { address = 0x8283BE00, size = 0xB8 },
+    { address = 0x827FF760, size = 0x64 },
+    { address = 0x829F2910, size = 0x6C },
+    { address = 0x82D8D938, size = 0x20C },
+    { address = 0x833382B8, size = 0x104 },
+    { address = 0x82404E98, size = 0x6C },
+    { address = 0x82768A20, size = 0x68 },
+    { address = 0x8335A650, size = 0xAC },
+    { address = 0x82DA0EA0, size = 0xD8 },
+    { address = 0x82768998, size = 0x84 },
+    { address = 0x8283B970, size = 0x68 },
+    { address = 0x82E23CE0, size = 0x174 },
+    { address = 0x82D7FE40, size = 0x12C },
+    { address = 0x82D8DB48, size = 0x18C },
+    { address = 0x824055E0, size = 0x60 },
+    { address = 0x8238F5D0, size = 0xEC },
+    { address = 0x82FCDC08, size = 0x144 },
+    { address = 0x82F683C8, size = 0x110 },
+    { address = 0x8256FC08, size = 0x90 },
+    { address = 0x82B11750, size = 0x50 },
+    { address = 0x82DA0178, size = 0xC8 },
+    { address = 0x827FF958, size = 0x270 },
+    { address = 0x827FB668, size = 0xDC },
+    { address = 0x82DC5E98, size = 0x108 },
+    { address = 0x8256FB70, size = 0x94 },
+    { address = 0x82A1E4F0, size = 0x150 },
+    { address = 0x826DE4C0, size = 0x100 },
+    { address = 0x8237DEF0, size = 0xF8 },
+    { address = 0x823D7B80, size = 0x348 },
+    { address = 0x8283BEB8, size = 0x98 },
+    { address = 0x83356138, size = 0x190 },
+    { address = 0x82DAD3F0, size = 0xC8 },
+    { address = 0x825D7B58, size = 0x194 },
+    { address = 0x827EAC68, size = 0x458 },
+    { address = 0x82DCD328, size = 0x11C },
+    { address = 0x8311C820, size = 0x1EC },
+    { address = 0x82833018, size = 0x6C },
+    { address = 0x824053B0, size = 0x5C },
+    { address = 0x8283BD80, size = 0x7C },
+    { address = 0x8279ECD0, size = 0x88 },
+    { address = 0x833359B0, size = 0x64 },
+    { address = 0x8252EC48, size = 0xDC },
+    { address = 0x82D8BA60, size = 0x13C },
+    { address = 0x82DB1E78, size = 0x18C },
+    { address = 0x8279ED58, size = 0x5C },
+    { address = 0x82F1CBB8, size = 0x110 },
+    { address = 0x82802A20, size = 0xB8 },
+    { address = 0x8283A0D0, size = 0xB0 },
+    { address = 0x8321CE60, size = 0x8C },
+    { address = 0x823514D8, size = 0x1A4 },
+    { address = 0x83335C98, size = 0x5C },
+    { address = 0x82AFC630, size = 0xF4 },
+    { address = 0x82DD7858, size = 0x14C },
+    { address = 0x823B4750, size = 0xB4 },
+    { address = 0x82EEB8F0, size = 0x618 },
+    { address = 0x832CEBA0, size = 0x78 },
+    { address = 0x82E0E2D8, size = 0x150 },
+    { address = 0x82D52248, size = 0x5C },
+    { address = 0x82A66398, size = 0xF8 },
+    { address = 0x825446C0, size = 0x8C },
+    { address = 0x82BD1C38, size = 0x14C },
+    { address = 0x825FA970, size = 0x30C },
+    { address = 0x8278D638, size = 0xA0 },
+    { address = 0x8311C670, size = 0x1AC },
+    { address = 0x83335948, size = 0x68 },
+    { address = 0x83222638, size = 0xBC },
+    { address = 0x82D8B8A8, size = 0x1B4 },
+    { address = 0x83335D28, size = 0x198 },
+    { address = 0x82E02E10, size = 0x174 },
+    { address = 0x82D7FD78, size = 0xC4 },
+    { address = 0x82FCDD50, size = 0x154 },
+    { address = 0x829D68B8, size = 0x80 },
+    { address = 0x82FF4968, size = 0x54 },
+    { address = 0x825F7C60, size = 0xB0 },
+    { address = 0x828F3DC8, size = 0x2B8 },
+    { address = 0x82E77180, size = 0xEC },
+    { address = 0x82A430B0, size = 0x48 },
+    { address = 0x825F7E70, size = 0x1B4 },
+    { address = 0x82DC6868, size = 0x104 },
+    { address = 0x82E23E58, size = 0x16C },
+    { address = 0x8242C908, size = 0x184 },
+    { address = 0x83335C40, size = 0x58 },
+    { address = 0x8252EA88, size = 0xDC },
+    { address = 0x82DAD330, size = 0xBC },
+    { address = 0x82918330, size = 0x1DC },
+    { address = 0x82A9A270, size = 0x90 },
+    { address = 0x82EEBE08, size = 0x100 },
+]
+    
