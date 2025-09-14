@@ -2,9 +2,9 @@
 
 ## 1. Clone the Repository
 
-Clone **MarathonRecomp** with submodules using [Git](https://git-scm.com/).
+Clone **POTFRecomp** with submodules using [Git](https://git-scm.com/).
 ```
-git clone --recurse-submodules https://github.com/sonicnext-dev/MarathonRecomp.git
+git clone --recurse-submodules https://github.com/masterspike52/POTFRecomp.git
 ```
 
 ### Windows
