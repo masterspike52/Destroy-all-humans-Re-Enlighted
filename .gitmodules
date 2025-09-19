@@ -1,6 +1,6 @@
 [submodule "tools/XenonRecomp"]
 	path = tools/XenonRecomp
-	url = https://github.com/sonicnext-dev/XenonRecomp.git
+	url = https://github.com/masterspike52/XenonRecomp.git
 [submodule "thirdparty/ddspp"]
 	path = thirdparty/ddspp
 	url = https://github.com/redorav/ddspp.git
